@@ -9,11 +9,16 @@ namespace Cheesebot.IO
 		
 		[System.NonSerialized] protected ISerializer serializer = null;
 		[System.NonSerialized] protected IDeserializer deserializer = null;
+
+		public string token;
 		
 		protected ConfigBase(string path)
 		{
 			this.path = path;
 			Directory.CreateDirectory(path);
+			
+			// Create default file if non-existent
+			if(!File.Exists(path)) Save();
 		}
 
 		public Type Load<Type>()
