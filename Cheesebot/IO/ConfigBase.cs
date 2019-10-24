@@ -5,10 +5,10 @@ namespace Cheesebot.IO
 {
 	public abstract class ConfigBase
 	{
-		public readonly string path;
+		[System.NonSerialized] public readonly string path;
 		
-		protected ISerializer serializer = null;
-		protected IDeserializer deserializer = null;
+		[System.NonSerialized] protected static ISerializer serializer = null;
+		[System.NonSerialized] protected static IDeserializer deserializer = null;
 		
 		protected ConfigBase(string path)
 		{
