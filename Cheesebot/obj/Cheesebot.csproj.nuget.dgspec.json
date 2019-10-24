@@ -1,0 +1,55 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/jegjag/Documents/Projects/Cheesebot/Cheesebot/Cheesebot.csproj": {}
+  },
+  "projects": {
+    "/home/jegjag/Documents/Projects/Cheesebot/Cheesebot/Cheesebot.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/jegjag/Documents/Projects/Cheesebot/Cheesebot/Cheesebot.csproj",
+        "projectName": "Cheesebot",
+        "projectPath": "/home/jegjag/Documents/Projects/Cheesebot/Cheesebot/Cheesebot.csproj",
+        "packagesPath": "/home/jegjag/.nuget/packages/",
+        "outputPath": "/home/jegjag/Documents/Projects/Cheesebot/Cheesebot/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/jegjag/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}

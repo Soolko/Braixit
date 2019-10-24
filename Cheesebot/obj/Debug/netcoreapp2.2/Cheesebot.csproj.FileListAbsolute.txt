@@ -1,0 +1,11 @@
+/home/jegjag/Documents/Projects/Cheesebot/Cheesebot/bin/Debug/netcoreapp2.2/Cheesebot.deps.json
+/home/jegjag/Documents/Projects/Cheesebot/Cheesebot/bin/Debug/netcoreapp2.2/Cheesebot.runtimeconfig.json
+/home/jegjag/Documents/Projects/Cheesebot/Cheesebot/bin/Debug/netcoreapp2.2/Cheesebot.runtimeconfig.dev.json
+/home/jegjag/Documents/Projects/Cheesebot/Cheesebot/bin/Debug/netcoreapp2.2/Cheesebot.dll
+/home/jegjag/Documents/Projects/Cheesebot/Cheesebot/bin/Debug/netcoreapp2.2/Cheesebot.pdb
+/home/jegjag/Documents/Projects/Cheesebot/Cheesebot/obj/Debug/netcoreapp2.2/Cheesebot.csprojAssemblyReference.cache
+/home/jegjag/Documents/Projects/Cheesebot/Cheesebot/obj/Debug/netcoreapp2.2/Cheesebot.csproj.CoreCompileInputs.cache
+/home/jegjag/Documents/Projects/Cheesebot/Cheesebot/obj/Debug/netcoreapp2.2/Cheesebot.AssemblyInfoInputs.cache
+/home/jegjag/Documents/Projects/Cheesebot/Cheesebot/obj/Debug/netcoreapp2.2/Cheesebot.AssemblyInfo.cs
+/home/jegjag/Documents/Projects/Cheesebot/Cheesebot/obj/Debug/netcoreapp2.2/Cheesebot.dll
+/home/jegjag/Documents/Projects/Cheesebot/Cheesebot/obj/Debug/netcoreapp2.2/Cheesebot.pdb
