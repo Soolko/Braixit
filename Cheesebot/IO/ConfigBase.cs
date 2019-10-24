@@ -7,8 +7,8 @@ namespace Cheesebot.IO
 	{
 		[System.NonSerialized] public readonly string path;
 		
-		[System.NonSerialized] protected static ISerializer serializer = null;
-		[System.NonSerialized] protected static IDeserializer deserializer = null;
+		[System.NonSerialized] protected ISerializer serializer = null;
+		[System.NonSerialized] protected IDeserializer deserializer = null;
 		
 		protected ConfigBase(string path)
 		{
