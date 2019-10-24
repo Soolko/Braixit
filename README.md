@@ -1,7 +1,8 @@
 # Cheesebot
-## Dependencies
 
+## Dependencies
 ### DSharpPlus
-* Website: https://github.com/DSharpPlus/DSharpPlus
-- Quick Install: dotnet add package DSharpPlus --version 3.2.3
+This library can be found here: https://github.com/DSharpPlus/DSharpPlus
+### YAMLDotNet
+This library can be found here: https://github.com/aaubry/YamlDotNet
 
