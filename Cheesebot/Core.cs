@@ -1,7 +1,7 @@
-﻿using System;
-using System.IO;
+﻿using System.IO;
 using System.Threading.Tasks;
 using Cheesebot.Console;
+using Cheesebot.Console.Commands;
 using Cheesebot.IO;
 using DSharpPlus;
 
@@ -10,8 +10,8 @@ namespace Cheesebot
 	public static class Core
 	{
 		public static DiscordClient client { get; private set; }
-		internal static Config config { get; private set; }
-		
+		public static Config config { get; private set; }
+		public static ConsoleBase ConsoleBase { get; private set; }
 		
 		internal static void Main(string[] args)
 		{
@@ -21,7 +21,8 @@ namespace Cheesebot
 			if(newConfig) Serializer.Save(Config.Path, config);
 			
 			// Console
-			
+			ConsoleBase.commands.Add(new Help());
+			ConsoleBase = new ConsoleBase(SystemConsole.Get);
 			
 			// DSharpPlus
 			MainAsync(args).ConfigureAwait(false).GetAwaiter().GetResult();
@@ -37,19 +38,6 @@ namespace Cheesebot
 					TokenType = TokenType.Bot
 				}
 			);
-		}
-		
-		[Serializable]
-		internal struct Config
-		{
-			internal const string Path = "./Cheesebot.cfg";
-			
-			internal static Config Default => new Config
-			{
-				token = new ConsoleVariable<string>("token", null)
-			};
-			
-			internal ConsoleVariable<string> token;
 		}
 	}
 }

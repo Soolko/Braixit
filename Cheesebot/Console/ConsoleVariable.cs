@@ -13,7 +13,7 @@ namespace Cheesebot.Console
 			this.key = key;
 			this.value = value;
 			
-			Console.variables.Add(this);
+			ConsoleBase.variables.Add(this);
 		}
 	}
 }
