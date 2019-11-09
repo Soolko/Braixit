@@ -11,7 +11,7 @@ namespace Cheesebot
 	{
 		public static DiscordClient client { get; private set; }
 		public static Config config { get; private set; }
-		public static ConsoleBase ConsoleBase { get; private set; }
+		private static ConsoleBase consoleBase;
 		
 		internal static void Main(string[] args)
 		{
@@ -22,7 +22,7 @@ namespace Cheesebot
 			
 			// Console
 			ConsoleBase.commands.Add(new Help());
-			ConsoleBase = new ConsoleBase(SystemConsole.Get);
+			consoleBase = new ConsoleBase(SystemConsole.Get);
 			
 			// DSharpPlus
 			MainAsync(args).ConfigureAwait(false).GetAwaiter().GetResult();
