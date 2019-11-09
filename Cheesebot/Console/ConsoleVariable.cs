@@ -1,7 +1,9 @@
 namespace Cheesebot.Console
 {
 	public interface ConsoleVariable { }
-	public class ConsoleVariable<Type> : ConsoleVariable where Type : class
+	
+	[System.Serializable]
+	public struct ConsoleVariable<Type> : ConsoleVariable where Type : class
 	{
 		public string key;
 		public Type value;
