@@ -1,4 +1,4 @@
-# Cheesebot
+# Solkbot
 
 ## Dependencies
 ### DSharpPlus
