@@ -1,4 +1,4 @@
-# Solkbot
+# Braixit
 
 ## Dependencies
 ### DSharpPlus
