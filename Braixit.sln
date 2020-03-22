@@ -1,6 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Solkbot", "Solkbot\Solkbot.csproj", "{84CFFF5C-A0A1-474E-8125-4B86492FF791}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Braixit", "Braixit\Braixit.csproj", "{84CFFF5C-A0A1-474E-8125-4B86492FF791}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -1,12 +1,12 @@
 using System;
-using Solkbot.Console;
+using Braixit.Console;
 
-namespace Solkbot
+namespace Braixit
 {
 	[Serializable]
 	public struct Config
 	{
-		internal const string Path = "./Cheesebot.cfg";
+		internal const string Path = "./Braixit.cfg";
 		internal static Config Default => new Config
 		{
 			token = new ConsoleVariable<string>("token", null)

@@ -1,4 +1,4 @@
-namespace Solkbot.Console
+namespace Braixit.Console
 {
 	public interface ConsoleVariable { }
 	
@@ -6,9 +6,9 @@ namespace Solkbot.Console
 	public struct ConsoleVariable<Type> : ConsoleVariable where Type : class
 	{
 		public string key;
-		public Type value;
+		public Type? value;
 		
-		public ConsoleVariable(string key, Type value = default(Type))
+		public ConsoleVariable(string key, Type value = default)
 		{
 			this.key = key;
 			this.value = value;

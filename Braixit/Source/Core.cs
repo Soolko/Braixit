@@ -1,13 +1,17 @@
-﻿using System.Drawing;
+﻿using System.Diagnostics.CodeAnalysis;
+using System.Drawing;
 using System.IO;
 using System.Threading.Tasks;
+
 using DSharpPlus;
-using Solkbot.Console;
-using Solkbot.Console.Commands;
-using Solkbot.IO;
+
+using Braixit.Console;
+using Braixit.Console.Commands;
+using Braixit.IO;
+
 using Term = Colorful.Console;
 
-namespace Solkbot
+namespace Braixit
 {
 	public static class Core
 	{
@@ -27,7 +31,8 @@ namespace Solkbot
 			// Console
 			ConsoleBase.commands.Add(new Help());
 			consoleBase = new ConsoleBase(SystemConsole.Get);
-
+			
+			// I don't know why ReSharper thinks the code is unreachable, it most definitely is.
 			if(config.token.value == null)
 			{
 				Color old = Term.ForegroundColor;

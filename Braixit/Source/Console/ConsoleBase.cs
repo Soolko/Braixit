@@ -1,7 +1,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Solkbot.Console
+namespace Braixit.Console
 {
 	public class ConsoleBase
 	{
@@ -23,10 +23,7 @@ namespace Solkbot.Console
 		public void Parse()
 		{
 			IEnumerable<string> args = GetArgs(callback.GetInput());
-			foreach(string arg in args)
-			{
-				System.Console.WriteLine(arg);
-			}
+			
 		}
 		
 		public static IEnumerable<string> GetArgs(string line)
@@ -47,7 +44,6 @@ namespace Solkbot.Console
 						currentWord.Clear();
 						continue;
 				}
-				
 				currentWord.Append(c.ToString());
 			}
 			

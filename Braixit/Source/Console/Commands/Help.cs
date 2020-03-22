@@ -1,6 +1,6 @@
 using System.Collections.Generic;
 
-namespace Solkbot.Console.Commands
+namespace Braixit.Console.Commands
 {
 	public class Help : ConsoleCommand
 	{

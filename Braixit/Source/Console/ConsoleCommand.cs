@@ -1,6 +1,6 @@
 using System.Collections.Generic;
 
-namespace Solkbot.Console
+namespace Braixit.Console
 {
 	public interface ConsoleCommand
 	{

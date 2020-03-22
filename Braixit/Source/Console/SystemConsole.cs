@@ -1,4 +1,4 @@
-namespace Solkbot.Console
+namespace Braixit.Console
 {
 	public struct SystemConsole : ConsoleBase.ConsoleInterface
 	{
